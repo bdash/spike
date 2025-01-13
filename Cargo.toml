@@ -1,0 +1,20 @@
+[package]
+name = "spike"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+timeout-readwrite = "0.3.1"
+nix = "0.20.0"
+termios = "0.3.3"
+libc = "0.2.94"
+log = "0.4.14"
+stderrlog = "0.5.1"
+ioctl-rs = "0.2.0"
+gpio = "0.4.1"
+ctrlc = "3.4.5"
+anyhow = "1.0.95"
+binrw = "0.14.1"
+bitvec = "1.0.1"
+
+evdev = "0.12.2"
